@@ -10,5 +10,8 @@ namespace eTickets.Models
         public string Logo { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+
+        //Relationships : Cinema has a list of movies
+        public List<Movie> Movies { get; set; }
     }
 }
